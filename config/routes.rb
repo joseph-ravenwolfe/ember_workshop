@@ -1,6 +1,7 @@
 EmberWorkshop::Application.routes.draw do
+
   scope "api" do
-    resources :sample
+    resources :items
   end
 
   get '*path', to: 'home#index'
