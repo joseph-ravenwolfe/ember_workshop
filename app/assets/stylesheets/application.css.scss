@@ -1,0 +1,47 @@
+/*
+ *= require reset
+ *= require_self
+ *= require_tree .
+ */
+
+@import "./helpers";
+
+body {
+  background-color: #f7f7f7;
+
+  a, a:hover, a:visited { color: #3399cc; text-decoration: none; }
+}
+
+
+
+header {
+  @extend %clearfix;
+  background-color: #454545;
+  color: #c4c4c1;
+  height: 90px;
+  padding: 0px 100px;
+
+  a  { color: #c4c4c1 !important; }
+}
+
+nav {
+  color: #666;
+  padding: 10px 100px;
+  background-color: #eee;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+  }
+}
+
+section {
+  color: #666;
+  padding: 50px 200px;
+}
+
